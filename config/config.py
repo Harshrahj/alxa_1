@@ -60,6 +60,9 @@ UPSTREAM_BRANCH = "master"
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
+# Get it group ( 
+Support group= getenv("support group", "https://t.me/alone_support")
+
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False").capitalize()
 
